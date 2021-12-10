@@ -1,2 +1,13 @@
-@import './header';
-@import './hero';
+@import './utils/vars';
+@import './base/reset';
+@import './components/container';
+@import './utils/hidden';
+@import './layout/header';
+@import './layout/hero';
+@import './features';
+@import './works';
+@import './team';
+@import './customers';
+@import './footer';
+@import './modal';
+@import './offers';

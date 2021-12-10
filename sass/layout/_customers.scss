@@ -1,0 +1,46 @@
+.customers-list {
+  display: flex;
+  justify-content: center;
+}
+
+.customers-item {
+  width: 170px;
+  height: 92px;
+}
+
+.customers-item + .customers-item {
+  margin-left: 30px;
+}
+
+.customers-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+  transition: border-color 250ms var(--timing-function), color 250ms var(--timing-function);
+}
+
+.customers-icon {
+  fill: currentColor;
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.customers-title {
+  text-align: center;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
