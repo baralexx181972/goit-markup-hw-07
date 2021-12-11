@@ -6,13 +6,13 @@
   display: flex;
 }
 
-.works-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .works-item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
+
 .works-item > .works-text {
   position: absolute;
   display: flex;

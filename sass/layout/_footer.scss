@@ -89,15 +89,14 @@
   justify-content: center;
   color: #afb1b8;
   transition: background-color 250ms var(--timing-function);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .footer-social-icon {
   fill: var(--second-title-color);
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: var(--accent-color);
 }
 
 .online {

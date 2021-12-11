@@ -22,16 +22,15 @@
   justify-content: center;
   color: #afb1b8;
   transition: border-color 250ms var(--timing-function), color 250ms var(--timing-function);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
 }
 
 .customers-icon {
   fill: currentColor;
-}
-
-.customers-link:hover,
-.customers-link:focus {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
 }
 
 .customers-title {

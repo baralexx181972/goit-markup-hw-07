@@ -74,14 +74,13 @@
   justify-content: center;
   color: #afb1b8;
   transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+  }
 }
 
 .master-social-icon {
   fill: currentColor;
-}
-
-.master-social-link:hover,
-.master-social-link:focus {
-  background-color: var(--accent-color);
-  color: #ffffff;
 }
