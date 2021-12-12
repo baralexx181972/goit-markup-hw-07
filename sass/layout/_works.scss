@@ -1,19 +1,19 @@
-.works-section {
+.works__section {
   padding-top: 0;
 }
 
-.works-list {
+.works__list {
   display: flex;
 }
 
-.works-item {
+.works__item {
   position: relative;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.works-item > .works-text {
+.works__item > .works__text {
   position: absolute;
   display: flex;
   align-items: center;
@@ -32,7 +32,7 @@
   color: var(--second-title-color);
 }
 
-.works-title {
+.works__title {
   text-align: center;
   margin-bottom: 50px;
 

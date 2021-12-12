@@ -5,12 +5,11 @@
   position: fixed;
   top: 0;
   transition: opacity 500ms var(--timing-function), visibility 500ms var(--timing-function);
-}
-
-.backdrop.is-hidden {
-  .modal {
-    transform: scale(1.5);
-    transition: transform 500ms;
+  &.is-hidden {
+    .modal {
+      transform: scale(1.5);
+      transition: transform 500ms;
+    }
   }
 }
 
@@ -126,7 +125,6 @@
 }
 
 .form-input-text {
-  font-family: Roboto;
   font-weight: normal;
   font-size: 12px;
   line-height: 1.17;

@@ -2,7 +2,7 @@
   border-bottom: 1px solid #ececec;
 }
 
-.header-logo {
+.header__logo {
   margin-right: 93px;
 
   font-family: Raleway;
@@ -13,18 +13,18 @@
   color: #2196f3;
 }
 
-.logo-studio {
+.header__logostudio {
   color: #212121;
 }
 
-.header-list {
+.header__list {
   display: flex;
-  & .header-item:not(:last-child) {
+  & .header__item:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.header-link {
+.header__link {
   display: block;
   position: relative;
   padding-top: 32px;
@@ -60,24 +60,24 @@
   }
 }
 
-.header-navigation {
+.header__navigation {
   display: flex;
   align-items: center;
 }
 
-.nav-container {
+.header__container {
   display: flex;
 }
 
-.header-contacts {
+.contacts {
   display: flex;
   margin-left: auto;
-  & .header-contacts-item:not(:last-child) {
+  & .contacts__item:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.header-contacts-link {
+.contacts__link {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -96,7 +96,7 @@
   }
 }
 
-.header-contacts-icon {
+.contacts__icon {
   margin-right: 10px;
   fill: currentColor;
 }
