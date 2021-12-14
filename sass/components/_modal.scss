@@ -27,7 +27,7 @@
   transition: transform 500ms var(--timing-function);
 }
 
-.modal-close {
+.modal__close {
   cursor: pointer;
   width: 30px;
   height: 30px;
@@ -53,7 +53,7 @@
   pointer-events: none;
 }
 
-.modal-title {
+.modal__title {
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
@@ -64,18 +64,18 @@
   margin-bottom: 12px;
 }
 
-.modal-field {
+.modal__field {
   margin-bottom: 10px;
 }
-.modal-comment {
+.modal__comment {
   margin-bottom: 20px;
 }
 
-.input-wrap {
+.input__wrap {
   position: relative;
 }
 
-.input-icon {
+.input__icon {
   position: absolute;
   left: 12px;
   top: 50%;
@@ -83,7 +83,7 @@
   transition: fill 250ms var(--timing-function);
 }
 
-.modal-form-input {
+.input__date {
   cursor: pointer;
   width: 100%;
   height: 40px;
@@ -98,12 +98,12 @@
   &:focus {
     border-color: var(--accent-color);
   }
-  &:focus + .input-icon {
+  &:focus + .input__icon {
     fill: var(--accent-color);
   }
 }
 
-.modal-form-text {
+.modal__thumb {
   display: block;
   width: 100%;
   height: 120px;
@@ -124,7 +124,7 @@
   }
 }
 
-.form-input-text {
+.modal__text {
   font-weight: normal;
   font-size: 12px;
   line-height: 1.17;
@@ -134,7 +134,7 @@
   margin-bottom: 4px;
 }
 
-.check-text {
+.check__text {
   align-items: center;
   justify-content: center;
   font-size: 14px;
@@ -145,7 +145,7 @@
   margin-bottom: 30px;
 }
 
-.check-item {
+.check__item {
   width: 16px;
   height: 15px;
   border: 2px solid #212121;
@@ -157,24 +157,24 @@
   transition: background-color 250ms var(--timing-function), border 250ms var(--timing-function);
 }
 
-.check-icon {
+.check__icon {
   fill: #ffffff;
 }
-.policy-text,
-.modal-checkbox-link {
+.policy__text,
+.policy__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
-.modal-checkbox-link {
+.policy__link {
   text-decoration-line: underline;
   color: #2196f3;
 }
 
-.modal-check:checked + .check-text {
-  .check-item {
+.modal__check:checked + .check__text {
+  .check__item {
     background-color: var(--accent-color);
     border: none;
   }
@@ -184,7 +184,7 @@
   }
 }
 
-.modal-button {
+.modal__button {
   display: block;
   margin: 0 auto;
   cursor: pointer;
